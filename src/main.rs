@@ -4,7 +4,7 @@ use tracing::{info,instrument,error};
 use tracing_subscriber::FmtSubscriber;
 use std::{process::{exit,Command}, error::Error};
 
-/// Simple program to greet a person
+/// Update to latest nightly nvim version.
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
