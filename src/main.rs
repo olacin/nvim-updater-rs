@@ -6,13 +6,13 @@ use console::style;
 type Result<T> = nvim_updater_rs::Result<T>;
 
 
-/// Update to latest nightly nvim version.
+/// A Neovim command-line updater.
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
    /// Executable directory destination
    #[clap(short, long, default_value_t = String::from("/usr/bin/nvim"))]
-   dest: String,
+   destination: String,
 
    /// Check only if a new version is available
    #[clap(short, long)]
@@ -67,7 +67,7 @@ async fn main() -> Result<()>{
         eprintln!("{}A new version is available: latest={} current={}", Emoji("✨ ", ""), style(&latest_version).green(), style(current_version).yellow());
     }
 
-    match nvim_updater_rs::download(&client, &args.dest).await {
+    match nvim_updater_rs::download(&client, &args.destination).await {
         Ok(()) => (),
         Err(e) => {
             eprintln!("{} happened while downloading latest nvim version: {}", style("Error").red(), e);
@@ -75,6 +75,6 @@ async fn main() -> Result<()>{
         }
     }
 
-    eprintln!("{}Successfully updated {} to version {}", Emoji("✅ ", ""), style(args.dest).green(), style(&latest_version).green());
+    eprintln!("{}Successfully updated {} to version {}", Emoji("✅ ", ""), style(args.destination).green(), style(&latest_version).green());
     Ok(())
 }
