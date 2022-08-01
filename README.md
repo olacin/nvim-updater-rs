@@ -1,5 +1,7 @@
 # **nvim-updater-rs** ~ A Neovim command-line updater
 
+![crates.io](https://img.shields.io/crates/v/nvim-updater-rs)
+
 ## Description
 
 If you've spent any amount of time in neovim and its configuration you probably are updating it often to get the latest features.
