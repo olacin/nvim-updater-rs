@@ -1,12 +1,12 @@
 [package]
 name = "nvim-updater-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Nicolas Picard"]
 license-file = "./LICENSE"
 description = "A Neovim command-line updater."
 homepage = "https://github.com/olacin/nvim-updater-rs"
-documentation = "https://github.com/olacin/nvim-updater-rs/blob/master/README.md"
+documentation = "https://github.com/olacin/nvim-updater-rs/blob/main/README.md"
 repository = "https://github.com/olacin/nvim-updater-rs.git"
 keywords = ["cli", "productivity", "tool", "management"]
 categories = ["command-line-utilities"]

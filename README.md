@@ -1,6 +1,7 @@
 # **nvim-updater-rs** ~ A Neovim command-line updater
 
-![crates.io](https://img.shields.io/crates/v/nvim-updater-rs)
+[![crates.io](https://img.shields.io/crates/v/nvim-updater-rs)](https://crates.io/crates/nvim-updater-rs)
+[![license](https://img.shields.io/crates/l/nvim-updater-rs)](https://github.com/olacin/nvim-updater-rs/blob/main/LICENSE)
 
 ## Description
 
