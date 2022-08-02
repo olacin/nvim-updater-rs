@@ -38,7 +38,7 @@ OPTIONS:
 ```
 ▶ nvim-updater-rs --check
 Gathering information on versions
-✅ Already at the latest version: latest=8952def50 current=8952def50
+✅ Already at the latest version: latest=0a049c322 current=0a049c322
 ```
 
 ### Custom destination
@@ -46,7 +46,10 @@ Gathering information on versions
 By default output of executable is `/usr/bin/nvim`. Depending on your environment you may not have permissions to write in this directory. You can override this option by providing the `-d` or `--destination` option.
 
 ```
-▶ nvim-updater-rs -d
+▶ nvim-updater-rs -d /usr/bin/nvim
 Gathering information on versions
-✅ Already at the latest version: latest=8952def50 current=8952def50
+✨ A new version is available: latest=0a049c322 current=8952def50
+Downloading https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+[00:00:00] [████████████████████] 14.63 MiB/14.63 MiB [ETA: 0s] [speed: 32.35 MiB/s]
+✅ Successfully updated /usr/bin/nvim to version 0a049c322
 ```
