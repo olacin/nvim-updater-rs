@@ -17,7 +17,7 @@ From **crates.io**: `cargo install nvim-updater-rs`
 
 Use `nvim-updater-rs --help` to display help on commandline.
 ```
-nvim-updater-rs 0.1.1
+nvim-updater-rs 0.1.2
 Nicolas Picard
 A Neovim command-line updater.
 
