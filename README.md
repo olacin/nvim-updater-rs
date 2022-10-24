@@ -1,7 +1,7 @@
 # **nvim-updater-rs** ~ A Neovim command-line updater
 
 [![crates.io](https://img.shields.io/crates/v/nvim-updater-rs)](https://crates.io/crates/nvim-updater-rs)
-[![license](https://img.shields.io/crates/l/nvim-updater-rs/0.1.2)](https://github.com/olacin/nvim-updater-rs/blob/main/LICENSE)
+[![license](https://img.shields.io/crates/l/nvim-updater-rs/0.1.3)](https://github.com/olacin/nvim-updater-rs/blob/main/LICENSE)
 
 ## Description
 
@@ -17,7 +17,7 @@ From **crates.io**: `cargo install nvim-updater-rs`
 
 Use `nvim-updater-rs --help` to display help on commandline.
 ```
-nvim-updater-rs 0.1.2
+nvim-updater-rs 0.1.3
 Nicolas Picard
 A Neovim command-line updater.
 
